@@ -8,7 +8,7 @@ func main() {
 	fmt.Scan(&N)
 
 	if N < 1 {
-		fmt.Print("angka yang dimasukan harus bulat positif")
+		fmt.Print("angka yang dimasukan tidak boleh kurang dari 1")
 		return
 	}
 
